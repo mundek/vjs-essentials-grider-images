@@ -24,7 +24,7 @@ const actions = {
         await api.uploadImages(images, token);
 
         // redirect user to gallery (ImageList component)
-
+        router.push('/');
     }
 };
 

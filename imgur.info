@@ -5,11 +5,9 @@ Authorization: Client-ID YOUR_CLIENT_ID
 
 For accessing a user's account, please visit the OAuth2 section of the docs.
 
-Client ID:
+Client ID: 801d572bbcd0820
 
-801d572bbcd0820
 Client secret:
-
-ac14b4a5619590b7c83ed27014856ea362d9943f
+######## (SEE WEB INTERFACE FOR ASSOCIATED ACCOUNT) ########
 
 https://api.imgur.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&response_type=REQUESTED_RESPONSE_TYPE&state=APPLICATION_STATE

@@ -20,9 +20,9 @@ export default {
         });
     },
     uploadImages(images, token) {
-        const promises = Array.from(images).map(image => {
+        const promises = Array.from(images).map(anImage => {
             const formData = new FormData();
-            formData.append('image', image);
+            formData.append('image', anImage);
 
             return axios.post(`${ROOT_URL}/3/image`, formData, {
                 headers: {
